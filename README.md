@@ -1,61 +1,58 @@
-# Mo Liyingjiang | 莫李英江
+# YJ-MoLi
 
-**Robotics · Robotic Manipulation · Computer Vision · Artificial Intelligence**
+**Machine Learning for Environmental Systems · Computer Vision · Robotics**
 
-物联网工程本科项目与科研实践作品集，聚焦机器人、机械臂、计算机视觉与人工智能。
+I am a master's student in Environmental Science and Engineering at Guangxi Normal University. My current interest is the use of machine learning for environmental data analysis, process modelling, interpretation, and decision support. My undergraduate training in Internet of Things Engineering established a practical foundation in robotics, computer vision, intelligent diagnosis, and end-to-end system integration.
 
-## About Me | 关于我
+广西师范大学环境科学与工程专业硕士研究生，关注机器学习在环境数据分析、过程建模、机理解释与智能决策中的应用。本科阶段接受物联网工程训练，研究与项目经历主要涉及机器人、计算机视觉、智能诊疗及系统集成。
 
-本科就读于太原学院（Taiyuan University, TYU）物联网工程专业。本科阶段围绕机器人系统、机械臂操作、目标检测、关键点检测、医学图像分析与模型部署开展项目实践，重视从算法实验到系统集成的完整链路。
+[Academic Homepage](https://blog.dengshu.cloud/) · [Research](https://blog.dengshu.cloud/research.html) · [Projects](https://blog.dengshu.cloud/projects.html) · [Awards](https://blog.dengshu.cloud/awards.html) · [Google Scholar](https://scholar.google.com/citations?user=emqGrgMAAAAJ) · [ORCID](https://orcid.org/0009-0007-5488-3557) · [Gitee](https://gitee.com/YJ-MoLi)
 
-- 曾参与：TYU 登枢战队、大数据与人工智能实验室、山西省智能诊疗产业学院
-- 本科阶段指导教师：陈志贤老师、张光华老师
-- 本科研究兴趣：机器人操作与控制、视觉感知、人工智能、智能诊疗
-- 后续方向：在环境科学与工程学习基础上，探索机器学习在环境数据分析、建模与智能决策中的应用
+## Research Profile | 研究概况
 
-> 本页仅整理本科阶段成果，用于呈现人工智能与工程实践基础，并不限定未来博士阶段的研究方向。仓库中的 `undergraduate-project` / `undergraduate-research` 标签用于统一标识本科项目。
-
-## Research Projects | 科研项目
-
-| 方向 | 项目 | 核心内容 |
+| Stage | Institution & field | Research emphasis |
 |---|---|---|
-| 智能诊疗 | [Open-Eye](https://github.com/moliyingjiang/Open-Eye) | 融合传统视觉与深度学习的眼动障碍辅助诊断研究 |
-| 图像分割 | [Seg_open-eye](https://github.com/moliyingjiang/Seg_open-eye) | 眼睑与眼部区域分割，为眼动障碍分析提供视觉基础 |
-| 系统展示 | [EyeMoveAI](https://github.com/moliyingjiang/EyeMoveAI) | 眼动障碍 AI 辅助诊断系统的 Web 展示与交互实现 |
-| 目标检测 | [P-SSD](https://github.com/moliyingjiang/P-SSD) | 扩展 SSD 评估流程，输出分类别 P/R/mAP 并开展结果分析 |
-| 智能读表 | [YOLOv5_CenterNet-RealMeter-Detect](https://github.com/moliyingjiang/YOLOv5_CenterNet-RealMeter-Detect) | YOLOv5 定位仪表、CenterNet 检测九点并计算读数 |
-| 关键点检测 | [CenterNet-RealMeter-Train](https://github.com/moliyingjiang/CenterNet-RealMeter-Train) | 仪表九点关键点模型训练与实验 |
+| Master's · 2026–present | Guangxi Normal University · Environmental Science and Engineering | Machine learning for environmental systems, predictive modelling, model interpretation, and data-informed decision support |
+| Undergraduate · 2021–2025 | Taiyuan University · Internet of Things Engineering | Robotics, robotic manipulation, computer vision, intelligent diagnosis, and engineering deployment |
 
-## Robotics & Competitions | 机器人与竞赛
+Current work builds on two complementary strengths: data-driven environmental modelling at the master's stage, and experience in perception, learning, and physical-system integration from undergraduate research.
 
-| 项目 | 核心内容 |
-|---|---|
-| [RoboCup-Master](https://github.com/moliyingjiang/RoboCup-Master) | RoboCup 机器人系统集成与比赛任务代码 |
-| [Robocup-Start](https://github.com/moliyingjiang/Robocup-Start) | RoboCup 先进视觉资格赛方案与实现 |
-| [manipulation-of-robotic-arms](https://github.com/moliyingjiang/manipulation-of-robotic-arms) | 机械臂感知、规划与控制实验（私有） |
-| [referee-box](https://github.com/moliyingjiang/referee-box) | RoboCup 裁判盒通信与流程控制模块（私有） |
-| [robocup](https://github.com/moliyingjiang/robocup) | RoboCup 机器人任务实现与系统联调（私有） |
+## Selected Research | 代表性研究
 
-## Computer Vision Applications | 视觉应用
+### Environmental machine learning
 
-- [DS-Li-Defect](https://github.com/moliyingjiang/DS-Li-Defect)：钢材表面缺陷检测。
-- [DS-Du-Manholedet](https://github.com/moliyingjiang/DS-Du-Manholedet)：井盖场景目标检测。
-- [DS-Jia-Abnormal](https://github.com/moliyingjiang/DS-Jia-Abnormal)：人员异常行为识别。
-- [DS-Zhang-Dangerous](https://github.com/moliyingjiang/DS-Zhang-Dangerous)：危险区域识别与安全预警。
-- [SSD-Demo](https://github.com/moliyingjiang/SSD-Demo)：停车位占用状态识别。
+- **Coagulant dosage prediction and interpretation** — machine-learning models for aluminium- and iron-based coagulant dosing in drinking-water treatment; manuscript submitted to *Sustainability* (co-author, 2026).
 
-## Engineering Practice | 工程实践
+### Computer vision and intelligent systems
 
-- 模型部署：[torchserve_ok](https://github.com/moliyingjiang/torchserve_ok)
-- 机器人视觉集成：[librealsense](https://github.com/moliyingjiang/librealsense)
-- Web 与数据库课程项目：[Studet](https://github.com/moliyingjiang/Studet)
-- 技术写作与个人展示：[Blog](https://github.com/moliyingjiang/Blog)、[个人主页](https://github.com/moliyingjiang/moliyingjiang.github.io)
+- **Industrial pointer-meter reading** — reliability-gated selective reading from visual evidence to admissible measurements; manuscript submitted to *Measurement* (contributing author, undergraduate research follow-up, 2026).
+- **Road-crack detection** — lightweight YOLOv8-based detection model; published in *Shanxi Electronic Technology* (second author, 2024).
+- **Intelligent diagnosis of ocular motility disorders** — traditional vision and deep-learning methods for eye-region analysis and diagnostic support.
+- **Robotic perception and manipulation** — visual perception, arm planning, quadruped rescue tasks, and competition-oriented system integration.
 
-## Notes on Academic Integrity | 项目归属说明
+## Selected Repositories | 代表性仓库
 
-部分仓库用于第三方开源项目的依赖镜像、兼容性适配或复现实验；相关仓库已在简介中明确标注。项目成果以仓库中的提交历史、实验代码与文档为准。
+| Area | Repository | Scope |
+|---|---|---|
+| Intelligent diagnosis | [Open-Eye](https://github.com/moliyingjiang/Open-Eye) | Ocular-motility analysis combining classical vision and deep learning |
+| Image segmentation | [Seg_open-eye](https://github.com/moliyingjiang/Seg_open-eye) | Eyelid and ocular-region segmentation for downstream analysis |
+| System implementation | [EyeMoveAI](https://github.com/moliyingjiang/EyeMoveAI) | Web-based demonstration of an AI-assisted diagnostic system |
+| Object detection | [P-SSD](https://github.com/moliyingjiang/P-SSD) | Extended SSD evaluation with per-class precision, recall, and mAP |
+| Industrial vision | [YOLOv5_CenterNet-RealMeter-Detect](https://github.com/moliyingjiang/YOLOv5_CenterNet-RealMeter-Detect) | Meter localisation, nine-point detection, and reading estimation |
+| Robotics | [RoboCup-Master](https://github.com/moliyingjiang/RoboCup-Master) | Robot-system integration and competition task implementation |
+| Robotics | [Robocup-Start](https://github.com/moliyingjiang/Robocup-Start) | Advanced-vision qualification workflow for RoboCup |
 
-## Contact
+Additional undergraduate work covers steel-surface defect detection, road-scene perception, safety monitoring, model serving, depth-camera integration, and robotic-arm experimentation. A structured account is available on the [project portfolio](https://blog.dengshu.cloud/projects.html).
 
-- GitHub: [@moliyingjiang](https://github.com/moliyingjiang)
-- Gitee: [@YJ-MoLi](https://gitee.com/YJ-MoLi)
+## Academic Background | 学术经历
+
+- **Graduate study:** Environmental Science and Engineering, Guangxi Normal University; supervised by Associate Professor Wenjie Fu (Ph.D., Tsinghua University).
+- **Undergraduate study:** Internet of Things Engineering, Taiyuan University; research experience in the TYU Dengshu Robotics Team, the Big Data and Artificial Intelligence Laboratory, and the Shanxi Intelligent Diagnosis and Treatment Industry College.
+- **Undergraduate mentors:** Zhixian Chen (postdoctoral research, Peking University) and Associate Professor Guanghua Zhang (Ph.D., Tsinghua University).
+- **Selected undergraduate record:** 14 national-level distinctions, 24 provincial-level distinctions, six university scholarships, and five registered software works. See the [full awards record](https://blog.dengshu.cloud/awards.html) for itemised context.
+
+## Research Practice & Attribution | 研究实践与归属
+
+Repositories marked as reproductions, dependency mirrors, or compatibility adaptations retain attribution to their upstream projects. Claims about research roles and outputs are limited to documented contributions, repository histories, manuscripts, and published records.
+
+For a chronological view of my academic development, see [News & Milestones](https://blog.dengshu.cloud/milestones.html).
